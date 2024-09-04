@@ -1,6 +1,6 @@
-#######################################################################
-### Exemplo utilizado na Fudamentação de Teoria da Resposta ao Item ###
-#######################################################################
+######################################################################################
+### Exemplo utilizado na Fundamentação de Teoria da Resposta ao Item (Seção 2.3.4) ###
+######################################################################################
 
 # Carrega o pacote mirt, responsável pelos métdos da TRI no R
 library(mirt)
@@ -21,7 +21,7 @@ dataset
 # Os parâmetros são definidos conforme enunciada na Seção da TRI na Tese
 #####
 
-# Define que o modelo vai ter valores predefinido
+# Define que o modelo vai ter valores predefinidos
 params <- mirt(dataset, 1, 'Rasch', pars='values')
 # Desabilita a estimação do parâmetro b para todos os itens
 params$est[2] = FALSE
@@ -46,6 +46,7 @@ fscores(myObj)
 # Calcula os valores de Theta para o ML2
 # Os parâmetros são definidos conforme enunciada na Seção da TRI na Tese
 #####
+
 # Define que o modelo vai ter valores predefinido
 params <- mirt(dataset, 1, '2PL', pars='values')
 # Desabilita a estimação dos parâmetros a e b para todos os itens
@@ -76,6 +77,7 @@ fscores(ml2)
 # Calcula os valores de Theta para o ML3
 # Os parâmetros são definidos conforme enunciada na Seção da TRI na Tese
 #####
+
 # Define que o modelo vai ter valores predefinido
 params <- mirt(dataset, 1, '3PL', pars='values')
 # Desabilita a estimação dos parâmetros a, b, c para todos os itens
