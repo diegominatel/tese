@@ -30,7 +30,6 @@ class Mirt:
         params['technical'] = technical
         params['itemtype'] = itemtype
         params['verbose'] = True
-        params['SE'] = True
         
         return params
         
