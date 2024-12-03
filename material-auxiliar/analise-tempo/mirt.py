@@ -43,9 +43,6 @@ class Mirt:
         ''' Convert DataFrame to R Frame '''
         with localconverter(ro.default_converter + pandas2ri.converter):
             item_modeling = ro.conversion.py2rpy(item_modeling)
-        ''' Convert List to R Vector '''    
-        #itemtype = ro.vectors.StrVector(itemtype)
         ''' Run mirt '''
         self.__model = mirt_package.mirt(item_modeling, 1, **self.mirt_config(itemtype))
-        #ability = mirt_package.fscores(self.__model)
         
