@@ -4,12 +4,12 @@ Neste repositório, encontra-se a implementação oficial dos métodos e experim
 
 ## Citação
 
-If you use any part of this code in your research, please cite it using the following BibTex entry:
+Caso utilize qualquer parte deste código ou tese em sua pesquisa, por favor, cite-a utilizando o seguinte formato de citação:
 
 - Bibtex
 
 ```latex
-will be available soon
+Disponível em breve
 ```
 
 - ABNT
@@ -22,4 +22,4 @@ Um dos principais desafios atuais em Inteligência Artificial é desenvolver mod
 
 ## Full text of the paper
 
-Access the full text of this paper at: will be available soon
+Acesse a tese em: https://www.teses.usp.br/teses/disponiveis/55/55134/tde-06012025-175603/pt-br.php
