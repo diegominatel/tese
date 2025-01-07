@@ -6,15 +6,15 @@ Neste repositório, encontra-se a implementação oficial dos métodos e experim
 
 If you use any part of this code in your research, please cite it using the following BibTex entry:
 
-### Bibtex
+- Bibtex
 
 ```latex
 will be available soon
 ```
 
-### ABNT
+- ABNT
 
-MINATEL, Diego. O Funcionamento Diferencial dos Itens na Indução de Classificadores Mais Justos. 2024. Tese (Doutorado em Ciências de Computação e Matemática Computacional) - Instituto de Ciências Matemáticas e de Computação, Universidade de São Paulo, São Carlos, 2024. doi:10.11606/T.55.2024.tde-06012025-175603. Acesso em: 2025-01-07.
+MINATEL, Diego. O Funcionamento Diferencial dos Itens na Indução de Classificadores Mais Justos. 2024. Tese (Doutorado em Ciências de Computação e Matemática Computacional) - Instituto de Ciências Matemáticas e de Computação, Universidade de São Paulo, São Carlos, 2024. doi:10.11606/T.55.2024.tde-06012025-175603. 
 
 ## Resumo
 
