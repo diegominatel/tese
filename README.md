@@ -7,7 +7,15 @@ Caso utilize qualquer parte deste código ou tese em sua pesquisa, por favor, ci
 - Bibtex
 
 ```latex
-Disponível em breve
+@phdthesis{minatel2024,
+  author       = {Diego Minatel},
+  title        = {O Funcionamento Diferencial dos Itens na Indução de Classificadores Mais Justos},
+  year         = {2024},
+  school       = {Universidade de São Paulo},
+  address      = {São Carlos},
+  type         = {Tese (Doutorado)},
+  url          = {https://www.teses.usp.br/teses/disponiveis/55/55134/tde-06012025-175603/},
+}
 ```
 
 - ABNT
